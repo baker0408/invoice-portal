@@ -30,7 +30,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Invoice_Portal_Config__mdt Custom Metadata records exist with configurable settings (processing fee %, ACH/CC toggle, page size, short pay reasons)
   4. InvoiceService Apex controller returns account-scoped invoice data (filtered by BillingAccountId and Sold_To_Account__c) with passing test classes
   5. PaymentService Apex controller stub exists with account-scoped security enforcement and passing test classes
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 01-01-PLAN.md -- SFDX project scaffold, Invoice custom fields, junction object, CMDT, permission set
+- [ ] 01-02-PLAN.md -- InvoiceService, PaymentService, TestDataFactory, and test classes
 
 ### Phase 2: Invoice List View
 **Goal**: Users can browse, filter, sort, and act on their invoices through a fully functional list page that serves as the portal entry point
@@ -91,7 +94,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Data Foundation | 0/0 | Not started | - |
+| 1. Data Foundation | 0/2 | Planning complete | - |
 | 2. Invoice List View | 0/0 | Not started | - |
 | 3. Payment Detail | 0/0 | Not started | - |
 | 4. Payment Submission | 0/0 | Not started | - |
