@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Invoice Payment Line</label>
+    <pluralLabel>Invoice Payment Lines</pluralLabel>
+    <nameField>
+        <label>Invoice Payment Line Name</label>
+        <type>AutoNumber</type>
+        <displayFormat>IPL-{0000}</displayFormat>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <enableActivities>false</enableActivities>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableHistory>false</enableHistory>
+    <description>Junction object linking a Payment to individual Invoices with payment-specific metadata (reason codes, comments, processing fee allocation)</description>
+</CustomObject>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment__c</fullName>
+    <label>Payment</label>
+    <type>Lookup</type>
+    <referenceTo>Payment</referenceTo>
+    <relationshipName>InvoicePaymentLines</relationshipName>
+    <relationshipLabel>Invoice Payment Lines</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Parent payment record (standard Payment object)</description>
+</CustomField>
