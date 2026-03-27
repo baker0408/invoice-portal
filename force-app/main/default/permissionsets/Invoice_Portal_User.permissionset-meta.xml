@@ -4,6 +4,14 @@
     <description>Grants access to Invoice Portal custom fields and objects</description>
     <hasActivationRequired>false</hasActivationRequired>
     <license>Salesforce</license>
+    <classAccesses>
+        <apexClass>InvoiceService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PaymentService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <fieldPermissions>
         <field>Invoice.PO_Number__c</field>
         <editable>true</editable>
@@ -19,35 +27,6 @@
         <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
-    <objectPermissions>
-        <object>Invoice_Payment_Line__c</object>
-        <allowCreate>true</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <fieldPermissions>
-        <field>Invoice_Payment_Line__c.Payment__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Invoice_Payment_Line__c.Invoice__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Invoice_Payment_Line__c.Payment_Amount__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Invoice_Payment_Line__c.Short_Pay_Reason__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <field>Invoice_Payment_Line__c.Comments__c</field>
         <editable>true</editable>
@@ -58,12 +37,18 @@
         <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
-    <classAccesses>
-        <apexClass>InvoiceService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>PaymentService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <fieldPermissions>
+        <field>Invoice_Payment_Line__c.Short_Pay_Reason__c</field>
+        <editable>true</editable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <objectPermissions>
+        <object>Invoice_Payment_Line__c</object>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
 </PermissionSet>

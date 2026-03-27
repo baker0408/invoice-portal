@@ -6,7 +6,7 @@
     <referenceTo>Invoice</referenceTo>
     <relationshipName>InvoicePaymentLines</relationshipName>
     <relationshipLabel>Invoice Payment Lines</relationshipLabel>
-    <required>true</required>
+    <required>false</required>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Related invoice (standard Invoice object)</description>
 </CustomField>

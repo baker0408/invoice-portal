@@ -3,7 +3,7 @@
     <fullName>Comments__c</fullName>
     <label>Comments</label>
     <type>LongTextArea</type>
-    <length>255</length>
+    <length>256</length>
     <visibleLines>3</visibleLines>
     <required>false</required>
     <description>Free text explanation, required when reason = Other</description>
