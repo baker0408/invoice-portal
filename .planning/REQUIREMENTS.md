@@ -112,51 +112,51 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INV-01 | Pending | Pending |
-| INV-02 | Pending | Pending |
-| INV-03 | Pending | Pending |
-| INV-04 | Pending | Pending |
-| INV-05 | Pending | Pending |
-| INV-06 | Pending | Pending |
-| INV-07 | Pending | Pending |
-| INV-08 | Pending | Pending |
-| INV-09 | Pending | Pending |
-| PAY-01 | Pending | Pending |
-| PAY-02 | Pending | Pending |
-| PAY-03 | Pending | Pending |
-| PAY-04 | Pending | Pending |
-| PAY-05 | Pending | Pending |
-| PAY-06 | Pending | Pending |
-| PAY-07 | Pending | Pending |
-| PAY-08 | Pending | Pending |
-| PAY-09 | Pending | Pending |
-| PAY-10 | Pending | Pending |
-| SUB-01 | Pending | Pending |
-| SUB-02 | Pending | Pending |
-| SUB-03 | Pending | Pending |
-| SUB-04 | Pending | Pending |
-| SUB-05 | Pending | Pending |
-| SUB-06 | Pending | Pending |
-| SUB-07 | Pending | Pending |
-| SUB-08 | Pending | Pending |
-| POST-01 | Pending | Pending |
-| POST-02 | Pending | Pending |
-| POST-03 | Pending | Pending |
-| POST-04 | Pending | Pending |
-| POST-05 | Pending | Pending |
-| POST-06 | Pending | Pending |
-| DATA-01 | Pending | Pending |
-| DATA-02 | Pending | Pending |
-| DATA-03 | Pending | Pending |
-| DATA-04 | Pending | Pending |
-| THEME-01 | Pending | Pending |
-| THEME-02 | Pending | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 1 | Pending |
+| DATA-03 | Phase 1 | Pending |
+| DATA-04 | Phase 1 | Pending |
+| INV-01 | Phase 2 | Pending |
+| INV-02 | Phase 2 | Pending |
+| INV-03 | Phase 2 | Pending |
+| INV-04 | Phase 2 | Pending |
+| INV-05 | Phase 2 | Pending |
+| INV-06 | Phase 2 | Pending |
+| INV-07 | Phase 2 | Pending |
+| INV-08 | Phase 2 | Pending |
+| INV-09 | Phase 2 | Pending |
+| THEME-01 | Phase 2 | Pending |
+| PAY-01 | Phase 3 | Pending |
+| PAY-02 | Phase 3 | Pending |
+| PAY-03 | Phase 3 | Pending |
+| PAY-04 | Phase 3 | Pending |
+| PAY-05 | Phase 3 | Pending |
+| PAY-06 | Phase 3 | Pending |
+| PAY-07 | Phase 3 | Pending |
+| PAY-08 | Phase 3 | Pending |
+| PAY-09 | Phase 3 | Pending |
+| PAY-10 | Phase 3 | Pending |
+| SUB-01 | Phase 4 | Pending |
+| SUB-02 | Phase 4 | Pending |
+| SUB-03 | Phase 4 | Pending |
+| SUB-04 | Phase 4 | Pending |
+| SUB-05 | Phase 4 | Pending |
+| SUB-06 | Phase 4 | Pending |
+| SUB-07 | Phase 4 | Pending |
+| SUB-08 | Phase 4 | Pending |
+| THEME-02 | Phase 4 | Pending |
+| POST-01 | Phase 5 | Pending |
+| POST-02 | Phase 5 | Pending |
+| POST-03 | Phase 5 | Pending |
+| POST-04 | Phase 5 | Pending |
+| POST-05 | Phase 5 | Pending |
+| POST-06 | Phase 5 | Pending |
 
 **Coverage:**
-- v1 requirements: 38 total
-- Mapped to phases: 0
-- Unmapped: 38 ⚠️
+- v1 requirements: 39 total
+- Mapped to phases: 39
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-27*
-*Last updated: 2026-03-27 after initial definition*
+*Last updated: 2026-03-27 after roadmap creation*
