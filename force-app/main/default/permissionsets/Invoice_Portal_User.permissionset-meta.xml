@@ -58,4 +58,12 @@
         <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
+    <classAccesses>
+        <apexClass>InvoiceService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PaymentService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
 </PermissionSet>
