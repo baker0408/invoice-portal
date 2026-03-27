@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 Plans:
 - [x] 01-01-PLAN.md -- SFDX project scaffold, Invoice custom fields, junction object, CMDT, permission set
-- [ ] 01-02-PLAN.md -- InvoiceService, PaymentService, TestDataFactory, and test classes
+- [x] 01-02-PLAN.md -- InvoiceService, PaymentService, TestDataFactory, and test classes
 
 ### Phase 2: Invoice List View
 **Goal**: Users can browse, filter, sort, and act on their invoices through a fully functional list page that serves as the portal entry point

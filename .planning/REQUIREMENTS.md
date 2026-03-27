@@ -55,7 +55,7 @@
 - [x] **DATA-01**: Custom fields on Invoice: PO_Number__c, Portal_Status__c, Sold_To_Account__c
 - [x] **DATA-02**: Invoice_Payment_Line__c junction object with Payment__c, Invoice__c, Payment_Amount__c, Short_Pay_Reason__c, Comments__c, Processing_Fee__c
 - [x] **DATA-03**: Custom Metadata for configurable settings (processing fee %, ACH/CC toggle, page size, short pay reasons, PaymentLink TTL)
-- [ ] **DATA-04**: All Apex queries enforce account scoping via BillingAccountId and Sold_To_Account__c
+- [x] **DATA-04**: All Apex queries enforce account scoping via BillingAccountId and Sold_To_Account__c
 
 ### Theming
 
@@ -115,7 +115,7 @@
 | DATA-01 | Phase 1 | Complete |
 | DATA-02 | Phase 1 | Complete |
 | DATA-03 | Phase 1 | Complete |
-| DATA-04 | Phase 1 | Pending |
+| DATA-04 | Phase 1 | Complete |
 | INV-01 | Phase 2 | Pending |
 | INV-02 | Phase 2 | Pending |
 | INV-03 | Phase 2 | Pending |
