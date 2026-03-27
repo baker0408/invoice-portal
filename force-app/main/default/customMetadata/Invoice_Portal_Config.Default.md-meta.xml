@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Processing_Fee_Percent__c</field>
+        <value xsi:type="xsd:double">2.9</value>
+    </values>
+    <values>
+        <field>Processing_Fee_Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ACH_Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Credit_Card_Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Invoices_Per_Page__c</field>
+        <value xsi:type="xsd:double">20</value>
+    </values>
+    <values>
+        <field>PaymentLink_TTL_Hours__c</field>
+        <value xsi:type="xsd:double">72</value>
+    </values>
+    <values>
+        <field>Short_Pay_Reasons__c</field>
+        <value xsi:type="xsd:string">Sales Tax;Freight;Damaged;Pricing;Other</value>
+    </values>
+</CustomMetadata>
