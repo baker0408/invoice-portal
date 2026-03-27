@@ -32,7 +32,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. PaymentService Apex controller stub exists with account-scoped security enforcement and passing test classes
 **Plans**: 2 plans
 Plans:
-- [ ] 01-01-PLAN.md -- SFDX project scaffold, Invoice custom fields, junction object, CMDT, permission set
+- [x] 01-01-PLAN.md -- SFDX project scaffold, Invoice custom fields, junction object, CMDT, permission set
 - [ ] 01-02-PLAN.md -- InvoiceService, PaymentService, TestDataFactory, and test classes
 
 ### Phase 2: Invoice List View
