@@ -12,7 +12,10 @@ Customers can select and pay multiple invoices in a single session through a sel
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ Invoice_Payment_Line__c junction object for short pay reasons, comments, and fee allocation — Phase 1
+- ✓ Portal_Status__c custom field for portal-specific status overlay (Open, In Progress, Paid) — Phase 1
+- ✓ Account-scoped invoice visibility via BillingAccountId and Sold_To_Account__c — Phase 1
+- ✓ Configurable settings via Custom Metadata (processing fee %, ACH/CC toggle, page size, short pay reasons) — Phase 1
 
 ### Active
 
@@ -30,13 +33,9 @@ Customers can select and pay multiple invoices in a single session through a sel
 - [ ] Billing address form pre-populated from account BillingAddress
 - [ ] Post-payment processing: Payment and PaymentLineItem record creation, Invoice balance/status updates
 - [ ] Credit card processing fee calculation and recording (merchant-absorbed, not customer-facing)
-- [ ] Invoice_Payment_Line__c junction object for short pay reasons, comments, and fee allocation
 - [ ] Payment confirmation page with transaction details and success/failure handling
-- [ ] Portal_Status__c custom field for portal-specific status overlay (Open, In Progress, Paid)
-- [ ] Account-scoped invoice visibility via BillingAccountId and Sold_To_Account__c
 - [ ] B2B Commerce site theme inheritance — no custom CSS overrides
 - [ ] Salesforce Payments SDK theme configured with type='slds' and designTokens from site CSS properties
-- [ ] Configurable settings via Custom Metadata (processing fee %, ACH/CC toggle, page size, short pay reasons)
 - [ ] Error handling with user-friendly messages (no raw SDK errors exposed)
 - [ ] Unmanaged package with all metadata (custom fields, LWCs, Apex, permission sets, page layouts)
 
@@ -103,4 +102,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-27 after initialization*
+*Last updated: 2026-03-27 after Phase 1 completion*
